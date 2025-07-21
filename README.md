@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Teknologi (sementara)
+## Teknologi
 - Laravel Brezee
 - Laravel Livewire
 - MySQL
