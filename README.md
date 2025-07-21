@@ -18,14 +18,6 @@
 git clone https://github.com/yulius98/Aplikasi-Pemad.git
 ```
 
-## Dummy user
-- Role User
-  email : user@gmail.com
-  password : 12345678
-- Role Admin
-  email : admin@gmail.com
-  password : 12345678
-
 - Install NPM dependencies
 ```bash
 npm install
@@ -65,7 +57,13 @@ php artisan migrate
 ```bash
 php artisan db:seed
 
-
+## Dummy user
+- Role User
+  email : user@gmail.com
+  password : 12345678
+- Role Admin
+  email : admin@gmail.com
+  password : 12345678
 
 
 ## About Laravel
