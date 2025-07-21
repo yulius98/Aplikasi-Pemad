@@ -97,7 +97,7 @@
             paginationContainer.innerHTML = '';
 
             if (data.last_page <= 1) {
-                return; // No pagination needed
+                return; 
             }
 
             const nav = document.createElement('nav');

@@ -7,6 +7,59 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Teknologi (sementara)
+- Laravel Brezee
+- Laravel Livewire
+- MySQL
+
+## Cara Install
+- Clone repository ini
+```bash
+git clone https://github.com/yulius98/Aplikasi-Pemad.git
+```
+
+- Install NPM dependencies
+```bash
+npm install
+```
+
+- Install PHP dependencies
+```bash
+composer install
+```
+
+- Copy file .env.example ke .env
+```bash
+cp .env.example .env
+```
+
+- Lengkapi .env sesuai dengan database yang digunakan
+```bash
+DB_CONNECTION=mysql
+DB_HOST=
+DB_PORT=3306
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+- Generate Laravel Key
+```bash
+php artisan key:generate
+```
+
+- Migrasi database
+```bash
+php artisan migrate
+```
+
+- Jalankan seeder (insert default data)
+```bash
+php artisan db:seed
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
